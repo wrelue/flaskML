@@ -16,7 +16,7 @@ mkdir templates
 touch templates/index.html
 ```
 
-So the templates folder will contain all your html 'views', index.html is one of  them and can be seen as a 'home page'. Tn it put the following code:
+So the templates folder will contain all your html 'views', index.html is one of  them and can be seen as a 'home page'. In it put the following code:
 
 ```html
 <html>
@@ -29,7 +29,7 @@ So the templates folder will contain all your html 'views', index.html is one of
 </html>
 ```
 
-__OR__, for a better look with _Semantic ui_ , put the following in your index.html
+__OR__, for a better look that includes _Semantic ui_ , put the following in your index.html
 
 
 ```html
@@ -102,3 +102,16 @@ Now you can start your app:
 ```bash
 python app.py
 ```
+
+### Result 
+
+At this point if all is correct you should see this;
+```bash
+*...
+*...
+*Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+
+opening in the browser your should see this:
+
+![exampleimage](example1.png)
