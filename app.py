@@ -21,6 +21,9 @@ def index():
     probability_val = predictions[1]
     real_val = predictions[2] 
 
-    return render_template('index.html', class_name=class_name_val, probability=probability_val, real = real_val)
+    #for react return elements as dictionary and they will be jsonified for you
+    return dict({"predictedClass":str(class_name_val)})
+    #for renderring
+    #return render_template('index.html', class_name=class_name_val, probability=probability_val, real = real_val)
 
-app.run(debug=True)
+app.run(debug=False)
