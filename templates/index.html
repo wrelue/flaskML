@@ -16,13 +16,16 @@
         <div class="ui hidden divider"></div>
         <div class="ui center aligned container">
             <h1 class="ui header">Predicted class
-                <h4 class="ui header"> {{ class_name }}</h4>
+                <h4 class="ui blue header"> {{ class_name }}</h4>
             </h1>
             <h2 class="ui header" >Confidence
-                <h4 class="ui header"> {{ probability }}</h4>
+                <h4 class="ui header" > {{ probability }}</h4>
+            </h2>
+            <h2 class="ui header" >Ground truth
+                <h4 class="ui green header"> {{ real }}</h4>
             </h2>
             <button class="massive ui green button">
-                <a class="ui  item" href="/">Randomize</a>
+                <a class="ui  item" href="/">Next prediction</a>
             </button>
         </div>
     </body>
