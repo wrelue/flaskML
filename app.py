@@ -2,6 +2,10 @@ import numpy as np
 import random
 from flask import Flask
 from flask import render_template
+<<<<<<< Updated upstream
+=======
+from robin_stocks import *
+>>>>>>> Stashed changes
 
 app = Flask(__name__)
 
